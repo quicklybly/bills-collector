@@ -4,7 +4,7 @@
 * [Артем Лысенко](https://github.com/quicklybly)
 * [Михаил Леонов](https://github.com/Jim-jimjim)
 * [Маатук Джавхер](https://github.com/JawharVal)
-* [Тавфик Мартен Осама Захьян](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+* [Тавфик Мартен Осама Захьян](https://github.com/MartinOsama)
 
 ### Ресурсы команды
 * [Документация и таск-трекер](https://quicklybly.youtrack.cloud/projects/872e36b8-4eeb-4623-a067-4e8c6b2eaff0)
