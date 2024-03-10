@@ -1,0 +1,6 @@
+[submodule "bills-collector-backend"]
+	path = bills-collector-backend
+	url = https://github.com/quicklybly/bills-collector-backend.git
+[submodule "bills-collector-mobile"]
+	path = bills-collector-mobile
+	url = https://github.com/quicklybly/bills-collector-mobile.git
