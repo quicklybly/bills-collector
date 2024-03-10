@@ -1,15 +1,30 @@
 # bills-collector
+
 ## Приложение для учета и оптимизации расходов на коммунальные услуги
-### Состав команды
-* [Артем Лысенко](https://github.com/quicklybly)
-* [Михаил Леонов](https://github.com/Jim-jimjim)
-* [Маатук Джавхер](https://github.com/JawharVal)
-* [Тавфик Мартен Осама Захьян](https://github.com/MartinOsama)
+
+### Состав команды ТП 7.4
+
+* [Артем Лысенко](https://github.com/quicklybly) - teamlead, project manager, архитектор, backend разработчик
+* [Михаил Леонов](https://github.com/Jim-jimjim) - mobile разработчик, бизнес аналитик, тестировщик UI/UX
+* [Маатук Джавхер](https://github.com/JawharVal) - дизайнер, mobile разработчик, тестировщик
+* [Тавфик Мартен Осама Захьян](https://github.com/MartinOsama) - бизнес аналитик, backend разработчик, тестировщик
 
 ### Ресурсы команды
-* [Документация и таск-трекер](https://quicklybly.youtrack.cloud/projects/872e36b8-4eeb-4623-a067-4e8c6b2eaff0)
-* [Miro](https://miro.com/welcomeonboard/cFVUSGd5WlJBUmJYclJkeHJ1VHBrZGVXWFFJZjVSZnBSZnV1OVhUVVcwT0tSaFU5dUpXbHlteFU0U3Y0d3F2bnwzNDU4NzY0NTc5ODQzOTYxNDQwfDI=?share_link_id=342653037746)
-* [Figma](https://www.figma.com/file/m4p753ctBYmTE3UAJgYsoQ/bills-collector?type=design&node-id=0%3A1&mode=design&t=fIvArJTSftmxRWnY-1)
+
+* [Youtrack](https://tinyurl.com/bills-youtrack)
+* [Miro](https://tinyurl.com/bills-miro)
+* [Figma](https://tinyurl.com/bills-figma)
+
+### Документация
+
+* [Техническое задание]()
+* [Сопроводительное письмо]()
+
+### Подмодули
+
+* [Backend](https://github.com/quicklybly/bills-collector-backend)
+* [Mobile](https://github.com/quicklybly/bills-collector-mobile)
 
 ### Контакты
-* [Product owner](https://t.me/quicklybly)
+
+* [Teamlead](https://t.me/quicklybly)
