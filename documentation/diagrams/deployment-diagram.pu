@@ -1,0 +1,25 @@
+@startuml Диаграмма развертывания
+
+node "Мобильный телефон клиента" {
+    [MobileApplication]
+}
+
+cloud "Сервер компании" {
+    package docker-compose {
+        [Nginx]
+        [Keycloak]
+        [Backend]
+        database PostgreSQL
+        database "Keycloak PostgreSQL"
+    }
+}
+
+[MobileApplication] -- [Nginx]
+
+[Nginx] -- [Keycloak]
+[Nginx] -- [Backend]
+
+[Backend] -- [PostgreSQL]
+[Keycloak] -- [Keycloak PostgreSQL]
+
+@enduml
