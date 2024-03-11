@@ -11,9 +11,9 @@
 
 ### Ресурсы команды
 
-* [Youtrack](https://tinyurl.com/bills-youtrack)
-* [Miro](https://tinyurl.com/bills-miro)
-* [Figma](https://tinyurl.com/bills-figma)
+* [Youtrack](https://quicklybly.youtrack.cloud/projects/872e36b8-4eeb-4623-a067-4e8c6b2eaff0)
+* [Miro](https://miro.com/app/board/uXjVNqeh0Pg=/?share_link_id=259709285800)
+* [Figma](https://www.figma.com/file/m4p753ctBYmTE3UAJgYsoQ/bills-collector?type=design&node-id=0%3A1&mode=design&t=fIvArJTSftmxRWnY-1)
 
 ### Документация
 
