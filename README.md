@@ -17,8 +17,15 @@
 
 ### Документация
 
-* [Техническое задание]()
-* [Сопроводительное письмо]()
+* [Техническое задание](https://github.com/quicklybly/bills-collector/tree/master/documentation/TZ.pdf)
+* [Сопроводительное письмо](https://github.com/quicklybly/bills-collector/tree/master/documentation/cover-letter.pdf)
+
+### Презентация проекта
+
+* [Презентация PPTX](https://github.com/quicklybly/bills-collector/tree/master/presentation/bills-collector.pptx)
+* [Презентация PDF](https://github.com/quicklybly/bills-collector/tree/master/presentation/bills-collector.pdf)
+* [Видеопрезентация](https://drive.google.com/file/d/1kcfKWzZwBiWmpp-jBJ6MVzDh0gj6iRLZ/view?usp=sharing)
+
 
 ### Подмодули
 
