@@ -1,7 +1,6 @@
 @startuml Диаграмма классов
 
 package "Controller Layer" {
-    class "Authorization Controller"
     class "User Controller"
     class "Bills Controller"
     class "Advice Controller"
@@ -9,7 +8,6 @@ package "Controller Layer" {
 }
 
 package "Service Layer" {
-    class "Authorization Service"
     class "User Service"
     class "Bills Service"
     class "Advice Service"
@@ -24,13 +22,11 @@ package "Data Access Layer" {
     class "House Repository"
 }
 
-"Authorization Controller" -- "Authorization Service"
 "User Controller" -- "User Service"
 "Bills Controller" -- "Bills Service"
 "Advice Controller" -- "Advice Service"
 "House Controller" -- "House Service"
 
-"Authorization Service" -- "User Repository"
 "User Service" -- "User Repository"
 "Bills Service" -- "Bills Repository"
 "Advice Service" -- "Advice Repository"
