@@ -6,11 +6,11 @@ actor Гость as G
 actor "Авторизованный \n пользователь" as U
 
 rectangle "Use cases гостя" {
-    usecase "Войти в аккаунт" as Login
+    usecase "Войти в личный кабинет" as Login
     usecase "Зарегистрироваться" as Registration
     usecase "Пройти онбординг" as Onboarding
 
-    usecase "Получить совет" as ReceiveAdviceG
+    usecase "Получить рекомендацию" as ReceiveAdviceG
 
     usecase "Получить прогнозируемое \n потребление услуги" as ReceiveExpectedG
 
@@ -27,7 +27,6 @@ rectangle "Use cases гостя" {
     usecase "Удалить услугу" as DeleteBillG
 
     usecase "Посмотреть информацию \n о приложении" as ViewAppInformationG
-    usecase "Оценить приложение" as RateAppG
 
     ViewBillG -.> ViewBillAnalyticsG : "include"
 
@@ -45,20 +44,18 @@ rectangle "Use cases гостя" {
     G --> AddBillG
     G --> DeleteBillG
     G --> ViewAppInformationG
-    G --> RateAppG
 }
 
 rectangle "Use cases авторизованного пользователя" {
-    usecase "Выйти из аккаунта" as Logout
+    usecase "Выйти из личного кабинета" as Logout
 
-    usecase "Посмотреть профиль" as ProfileView
-    usecase "Редактировать профиль" as ProfileEdit
-    usecase "Измененить аватар" as ProfileEditAvatarChange
+    usecase "Просмотреть личный кабинет" as ProfileView
+    usecase "Редактировать данные \n личного кабинета" as ProfileEdit
     usecase "Измененить персональные данные" as ProfileEditPersonalInfoChange
     usecase "Изменить пароль" as ProfileEditChangePassword
     usecase "Неверно введен \n предыдущий пароль" as ProfileEditChangePasswordInvalidPassword
 
-    usecase "Получить совет" as ReceiveAdvice
+    usecase "Получить рекомендацию" as ReceiveAdvice
 
     usecase "Получить прогнозируемое \n потребление услуги" as ReceiveExpected
 
@@ -75,10 +72,7 @@ rectangle "Use cases авторизованного пользователя" {
     usecase "Удалить услугу" as DeleteBill
 
     usecase "Посмотреть информацию \n о приложении" as ViewAppInformation
-    usecase "Оценить приложение" as RateApp
 
-
-    ProfileEdit -.> ProfileEditAvatarChange : "include"
     ProfileEdit -.> ProfileEditPersonalInfoChange : "include"
     ProfileEdit -.> ProfileEditChangePassword : "include"
     ProfileEditChangePassword <.- ProfileEditChangePasswordInvalidPassword : "exclude"
@@ -99,5 +93,4 @@ rectangle "Use cases авторизованного пользователя" {
     U --> AddBill
     U --> DeleteBill
     U --> ViewAppInformation
-    U --> RateApp
 @enduml
