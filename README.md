@@ -1,4 +1,4 @@
-# bills-collector
+# Bills Collector
 
 ## Приложение для учета и оптимизации потребления коммунальных услуг
 
@@ -8,7 +8,7 @@
 * [Артем Лысенко](https://github.com/quicklybly) - тимлид, менеджер проекта, архитектор, backend разработчик
 * [Михаил Леонов](https://github.com/Jim-jimjim) - mobile разработчик, бизнес аналитик, тестировщик UI/UX
 * [Маатук Джавхер](https://github.com/JawharVal) - дизайнер, mobile разработчик, тестировщик
-* [Тавфик Мартен Осама Захьян](https://github.com/MartinOsama) - бизнес аналитик, backend разработчик, тестировщик
+* [Мартен Тавфик](https://github.com/MartinOsama) - бизнес аналитик, backend разработчик, тестировщик
 
 ---
 Ресурсы команды
@@ -33,7 +33,7 @@
 
 * [Презентация PPTX](https://github.com/quicklybly/bills-collector/tree/master/presentation/bills-collector.pptx)
 * [Презентация PDF](https://github.com/quicklybly/bills-collector/tree/master/presentation/bills-collector.pdf)
-* [Видеопрезентация](https://drive.google.com/file/d/1kcfKWzZwBiWmpp-jBJ6MVzDh0gj6iRLZ/view?usp=sharing)
+* [Видеопрезентация](https://drive.google.com/file/d/1bPWe5UVn1BipCYNxwn9VDcjQoVszwTqS/view?usp=sharing)
 
 ---
 
