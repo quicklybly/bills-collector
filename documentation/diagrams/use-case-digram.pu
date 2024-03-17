@@ -1,0 +1,96 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor Гость as G
+actor "Авторизованный \n пользователь" as U
+
+rectangle "Use cases гостя" {
+    usecase "Войти в личный кабинет" as Login
+    usecase "Зарегистрироваться" as Registration
+    usecase "Пройти онбординг" as Onboarding
+
+    usecase "Получить рекомендацию" as ReceiveAdviceG
+
+    usecase "Получить прогнозируемое \n потребление услуги" as ReceiveExpectedG
+
+    usecase "Посмотреть данные об услуге" as ViewBillG
+    usecase "Посмотреть аналитику по услуге" as ViewBillAnalyticsG
+
+    usecase "Редактировать данные об услуге" as EditBillG
+    usecase "Добавить запись для услуги" as EditBillAddRecordG
+    usecase "Редактировать запись для услуги" as EditBillEditRecordG
+    usecase "Удалить запись для услуги" as EditBillDeleteRecordG
+
+    usecase "Добавить услугу" as AddBillG
+
+    usecase "Удалить услугу" as DeleteBillG
+
+    usecase "Посмотреть информацию \n о приложении" as ViewAppInformationG
+
+    ViewBillG -.> ViewBillAnalyticsG : "include"
+
+    EditBillG -.> EditBillAddRecordG : "include"
+    EditBillG -.> EditBillEditRecordG : "include"
+    EditBillG -.> EditBillDeleteRecordG : "include"
+
+    G --> Login
+    G --> Registration
+    G --> Onboarding
+    G --> ReceiveAdviceG
+    G --> ReceiveExpectedG
+    G --> ViewBillG
+    G --> EditBillG
+    G --> AddBillG
+    G --> DeleteBillG
+    G --> ViewAppInformationG
+}
+
+rectangle "Use cases авторизованного пользователя" {
+    usecase "Выйти из личного кабинета" as Logout
+
+    usecase "Просмотреть личный кабинет" as ProfileView
+    usecase "Редактировать данные \n личного кабинета" as ProfileEdit
+    usecase "Измененить персональные данные" as ProfileEditPersonalInfoChange
+    usecase "Изменить пароль" as ProfileEditChangePassword
+    usecase "Неверно введен \n предыдущий пароль" as ProfileEditChangePasswordInvalidPassword
+
+    usecase "Получить рекомендацию" as ReceiveAdvice
+
+    usecase "Получить прогнозируемое \n потребление услуги" as ReceiveExpected
+
+    usecase "Посмотреть данные об услуге" as ViewBill
+    usecase "Посмотреть аналитику по услуге" as ViewBillAnalytics
+
+    usecase "Редактировать данные об услуге" as EditBill
+    usecase "Добавить запись для услуги" as EditBillAddRecord
+    usecase "Редактировать запись для услуги" as EditBillEditRecord
+    usecase "Удалить запись для услуги" as EditBillDeleteRecord
+
+    usecase "Добавить услугу" as AddBill
+
+    usecase "Удалить услугу" as DeleteBill
+
+    usecase "Посмотреть информацию \n о приложении" as ViewAppInformation
+
+    ProfileEdit -.> ProfileEditPersonalInfoChange : "include"
+    ProfileEdit -.> ProfileEditChangePassword : "include"
+    ProfileEditChangePassword <.- ProfileEditChangePasswordInvalidPassword : "exclude"
+
+    ViewBill -.> ViewBillAnalytics : "include"
+
+    EditBill -.> EditBillAddRecord : "include"
+    EditBill -.> EditBillEditRecord : "include"
+    EditBill -.> EditBillDeleteRecord : "include"
+
+    U --> Logout
+    U --> ProfileView
+    U --> ProfileEdit
+    U --> ReceiveAdvice
+    U --> ReceiveExpected
+    U --> ViewBill
+    U --> EditBill
+    U --> AddBill
+    U --> DeleteBill
+    U --> ViewAppInformation
+@enduml

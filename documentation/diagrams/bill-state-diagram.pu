@@ -1,0 +1,13 @@
+@startuml Диаграмма состояний для коммунальной услуги
+
+' title
+'     Диаграмма состояний для коммунальной услуги
+' end title
+
+[*] --> Created : Услуга создана
+Created -left-> AvailableForAnalytics : В услугу добавлены данные
+AvailableForAnalytics -right-> Created : Из услуги удалили все данные
+Created --> [*] : Услуга удалёна
+AvailableForAnalytics --> [*] : Услуга удалёна
+
+@enduml
