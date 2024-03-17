@@ -8,7 +8,7 @@
 * [Артем Лысенко](https://github.com/quicklybly) - тимлид, менеджер проекта, архитектор, backend разработчик
 * [Михаил Леонов](https://github.com/Jim-jimjim) - mobile разработчик, бизнес аналитик, тестировщик UI/UX
 * [Маатук Джавхер](https://github.com/JawharVal) - дизайнер, mobile разработчик, тестировщик
-* [Тавфик Мартен Осама Захьян](https://github.com/MartinOsama) - бизнес аналитик, backend разработчик, тестировщик
+* [Мартен Тавфик](https://github.com/MartinOsama) - бизнес аналитик, backend разработчик, тестировщик
 
 ---
 Ресурсы команды
