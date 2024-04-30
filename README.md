@@ -37,6 +37,17 @@
 
 ---
 
+2 аттестация
+---
+
+* [Видеопрезентация](https://drive.google.com/file/d/1lWRFBc-muT7LnR77Svg0B7lq4wa7r-md/view)
+* [Презентация PPTX](https://github.com/quicklybly/bills-collector/tree/master/presentation/attestation/bills-collector.pptx)
+* [Презентация PDF](https://github.com/quicklybly/bills-collector/tree/master/presentation/attestation/bills-collector.pptx)
+* [Курсовой проект PDF](https://github.com/quicklybly/bills-collector/blob/master/documentation/course-project/course-project.pdf)
+* [Курсовой проект WORD](https://github.com/quicklybly/bills-collector/blob/master/documentation/course-project/course-project.docx)
+
+---
+
 Подмодули
 ---
 
