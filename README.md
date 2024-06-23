@@ -25,6 +25,7 @@
 
 * [Техническое задание](https://github.com/quicklybly/bills-collector/tree/master/documentation/specification/specification.pdf)
 * [Сопроводительное письмо](https://github.com/quicklybly/bills-collector/tree/master/documentation/cover-letter/cover-letter.pdf)
+* [Курсовая работа](https://github.com/quicklybly/bills-collector/blob/master/documentation/course-project/course-project.pdf)
 
 ---
 
