@@ -1,0 +1,30 @@
+@startuml
+
+entity "Client" as client {
+    + id: Long [PK]
+    --
+    username: String    // Indexed and Unique
+    --
+}
+
+entity "Bill" as bill {
+    + id: Long [PK]
+    --
+    name: String
+    description: String
+    client_id: Long     // Foreign Key to Client, Indexed
+    --
+}
+
+entity "BillUsage" as bill_usage {
+    + id: Long [PK]
+    --
+    usage_detail: String
+    bill_id: Long   // Foreign Key to Bill
+    --
+}
+
+client ||--o{ bill: "has_many"
+bill ||--o{ bill_usage: "has_many"
+
+@enduml
