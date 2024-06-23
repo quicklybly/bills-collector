@@ -37,6 +37,15 @@
 
 ---
 
+Ссылки на приложение
+---
+
+* [APK](https://github.com/quicklybly/bills-collector-mobile/releases/tag/v1.0.3)
+* [Keycloak](http://213.171.3.55/auth/)
+* [Swagger](http://213.171.3.55:8080/bills-collector/swagger-ui/index.html#/)
+
+---
+
 2 аттестация
 ---
 
