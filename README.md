@@ -34,7 +34,8 @@
 
 * [Презентация PPTX](https://github.com/quicklybly/bills-collector/tree/master/presentation/bills-collector.pptx)
 * [Презентация PDF](https://github.com/quicklybly/bills-collector/tree/master/presentation/bills-collector.pdf)
-* [Видеопрезентация](https://drive.google.com/file/d/1hFTY-ReJbuGSf0CGEVGSuKQ-eAXIWJaH/view?usp=drive_link)
+* [Видеопрезентация](https://drive.google.com/file/d/1bPWe5UVn1BipCYNxwn9VDcjQoVszwTqS/view?usp=sharing)
+* [Демо приложения](https://drive.google.com/file/d/1hFTY-ReJbuGSf0CGEVGSuKQ-eAXIWJaH/view?usp=drive_link)
 
 ---
 
