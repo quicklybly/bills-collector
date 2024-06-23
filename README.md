@@ -7,8 +7,8 @@
 
 * [Артем Лысенко](https://github.com/quicklybly) - тимлид, менеджер проекта, архитектор, backend разработчик
 * [Михаил Леонов](https://github.com/Jim-jimjim) - mobile разработчик, бизнес аналитик, тестировщик UI/UX
-* [Маатук Джавхер](https://github.com/JawharVal) - дизайнер, mobile разработчик, тестировщик
-* [Мартен Тавфик](https://github.com/MartinOsama) - бизнес аналитик, backend разработчик, тестировщик
+* [Маатук Джавхер](https://github.com/JawharVal) - дизайнер, тестировщик
+* [Мартен Тавфик](https://github.com/MartinOsama) - бизнес аналитик, тестировщик
 
 ---
 Ресурсы команды
@@ -44,6 +44,7 @@
 * [APK](https://github.com/quicklybly/bills-collector-mobile/releases/tag/v1.0.3)
 * [Keycloak](http://213.171.3.55/auth/)
 * [Swagger](http://213.171.3.55:8080/bills-collector/swagger-ui/index.html#/)
+* [Postman collection](https://github.com/quicklybly/bills-collector-backend/blob/master/postman-api/bills.postman_collection.json)
 
 ---
 
